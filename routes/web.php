@@ -46,6 +46,7 @@ use App\Http\Controllers\tables\Basic as TablesBasic;
 
 
 
+
 Route::prefix('/admin')->group(function () {
     Route::get('/', [Analytics::class, 'index'])->name('dashboard-analytics');
 });
